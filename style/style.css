@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/background.png');
+    background-position:center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 40px;
+    background-color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#control,#inicioCabeza{
+    position: relative;
+    z-index: 0;
+}
+
+form div{
+    margin: 20px 0;
+}
+
+input[type='submit']{
+    width: 70%;
+}
+
+
+#botonBuscar{
+    width: 20%;
+}
+
+#buscarNombre{
+    width: 45%;
+    background-color:transparent;
+    padding: none;
+    margin: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.col-sm-3{
+    padding: 10px;
+}
+
+#container{
+    display:flex;
+    margin-bottom: 50px;
+}
+
+
+
+footer{
+    height: 240px;
+    background-image: url('../img/patrondefondo.png');
+    background-repeat: repeat;
+}
+
+form{
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+nav{
+    width: 20%;
+    height: fit-content;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav h2{
+    text-align: center;
+    border-bottom: 2px solid grey;
+    padding: 8px;
+
+}
+
+nav form{
+    background-color: unset;
+    width: 100%;
+    margin: 0;
+    border-bottom: 2px solid grey;
+}
+
+nav form select{
+    width: 100%;
+}
+
+.card{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-img-top{
+    width: 75%;
+    margin: 10px auto;
+}
+
+.card-img-left{
+    width: 20%;
+}
+
+.card-title{
+    font-size: 1em;
+    font-weight: bolder;
+    height: 50px;
+    width: 100%;
+}
+
+.card-body{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-body p{
+    margin-top: 45px
+}
+
+.card .card-title{
+    margin-top: 0;
+}
+
+main{
+    width: 80%;
+    background-color: white;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.col-sm-2{
+    margin: 8px 0;
+}
+
+.btn-group{
+    margin: 0;
+}
+
+.btn-group .btn{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.inicio{
+    width: 30%;
+    margin-top: 50px;
+    font-size: 0.75em;
+}
+
+.inicio label{
+    font-size: 1.25em;
+}
+
+.inicio input{
+    width: 100%;
+    padding: 5px;
+}
+
+.inicio label:first-child{
+    width: 100%;
+    border-bottom: 2px solid grey;
+    margin-bottom: 20px;
+}
+
+#listado{
+    width: 100%;
+    background-color: unset;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#listado div {
+    margin: 0;
+}
+
+#infocarta{
+    width: 100%;
+    background-color: unset;
+    border-radius: 0;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#infocarta .card-body{
+    text-align: left;
+    padding: 10px;
+}
+
+#infocarta .card-body h5{
+    background-color: cornflowerblue;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+#infocarta .card-body p{
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+
+
+#infocarta img{
+    width: 350px;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+
+
+.custom-select{
+    padding: 10px;
+}
+
+#navegacion {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    border-top: 4px solid rgb(241, 241, 241);
+}
+
+#navegacion form{
+    position:relative;
+    border-radius: 0;
+}
+
+#navegacion select {
+    width: 25%;
+}
+
+#navegacion input[type='submit']{
+    width: auto;
+    padding: 5px 20px;
+}
+
+#navegacion table tr {
+    border-bottom: unset;
+}
+
+#navegacion table tr td select{
+    width: 100%;
+}
+
+#menuCuenta{
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.precio {
+    border-top: 2px solid grey;
+    padding-top: 10px;
+}
+
+main article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.btn-primary a{
+    text-decoration: unset;
+    color: white;
+}
+
+#botonFiltro{
+    width: 100%;
+}
+
+#menuMov{
+    width: 50%;
+}
+
+#menuMov button a{
+    padding: 10px;
+}
+
+#carrito{
+    width: 100%;
+    padding: 40px;
+}
+
+#carrito h2{
+    border-bottom: 5px solid gray;
+    background-color: rgb(214, 213, 213);
+    padding: 10px;
+}
+
+#errorCarrito{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#carouselExampleIndicators{
+    margin-top: 80px;
+    background-color: gray;
+}
+
+body:nth-child(2){
+    margin-top: 80px;
+}
+
+#lanzamiento{
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+#cuerpoInicio{
+    margin-top: 0;
+}
+
+table tr{
+    border-bottom: 1px solid gray;
+}
+
+table th{
+    padding: 10px;
+}
+
+table tr td{
+    width: 10%;
+    padding: 10px;
+}
+
+table tr td img{
+    width: 50%;
+}
+
+table input[type='number']{
+    width: 20%;
+}
+
+h5{
+    padding: 10px;
+}
+
+.borrarBoton{
+    border: 2px solid gray;
+    background-color: rgb(110, 103, 103);
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.imgForm{
+    width: 30%;
+}
+
+#menuCompra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuCompra{
+    width: unset;
+    background-color:unset;
+    border-radius: unset;
+    margin: unset;
+    padding: unset;
+}
+
+#panelControl{
+    margin-top: 0;
+}
+
+#listadoUsuarios{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 20px;
+}
+
+#listadoUsuarios h2{
+    border-bottom: 5px solid gray;
+    background-color: rgb(214, 213, 213);
+    padding: 10px;
+}
+
+.menuModif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid gray;
+}
+
+.menuModif img{
+    width: 20%;
+}
+
+.menuModif form{
+    margin:0;
+}
